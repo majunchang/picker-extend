@@ -1,0 +1,17 @@
+{
+  "name": "picker-extend",
+  "version": "1.1.1",
+  "description": "A multi-function mobile phone scrolling selector, support single to multi-select, support multi-level cascade, provide custom callback function, provide update function redraw, relocation function, compatible pc drag and so on.",
+  "main": "picker-extend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "picker-extend",
+    "select-extend",
+    "select",
+    "picker"
+  ],
+  "author": "majunchang",
+  "license": "ISC"
+}
