@@ -188,8 +188,8 @@
       }
     },
     setFilxibleStyle: function (flexibleHeight) {
-      let height = flexibleHeight || 40
-      let _this = this
+      var height = flexibleHeight || 40
+      var _this = this
       this.pickerExtend.style.display = 'none'
       var arr = _this.pickerExtend.getElementsByTagName('li')
       for (var i = 0; i < arr.length; i++) {
@@ -268,7 +268,6 @@
               '</div>' +
               '</div>'
       document.body.appendChild(_this.pickerExtend)
-      console.log('添加了dom之后的 pickerExtend', _this.pickerExtend)
       // 根据数据长度来渲染
 
       var tempHTML = ''

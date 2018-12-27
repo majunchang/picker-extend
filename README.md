@@ -20,7 +20,17 @@
 - 支持级联内容的扩展 比如 对于三级联动类目增加推荐字段  对三级联动地区 -
 - 增加推荐字样（特殊化展示）
 
+>  简书
 
+[picker-extend 移动端级联选择插件（简书）](https://www.jianshu.com/p/f4c673f04128)
+
+> 掘金
+
+[picker-extend 移动端级联选择插件（掘金）](https://juejin.im/post/5bf5584be51d45218f3d052a)
+
+> npm 地址
+
+[picker-extend 移动端级联选择插件 （npm）](https://www.npmjs.com/package/picker-extend)
 ## 引入
 
 #### 方式一 标签引入：
@@ -92,7 +102,7 @@ var pickerExtend2 = new PickerExtend({
 </script>
 ```
 ##### 效果图：
-![Image text](https://github.com/onlyhom/img-folder/blob/master/gif/ms_no_cascade.gif?raw=true)
+[图片上传失败...(image-6fbf94-1536046640642)]
 
 
 #### ③json格式-联动
@@ -131,7 +141,7 @@ var pickerExtend2 = new PickerExtend({
   </script>
 ```
 ##### 效果图：
-![Image text](https://raw.githubusercontent.com/onlyhom/img-folder/master/gif/%E7%BA%A7%E8%81%94.gif)
+![Image text](http://upload-images.jianshu.io/upload_images/5703029-377d30633bfbc02e.gif?imageMogr2/auto-orient/strip)
 
 
 #### ④在vue-cli中如何使用
@@ -289,10 +299,8 @@ var mySelect = new PickerExtend({
 // 重新定位第1个轮子的位置，将第1个轮子的第0个数据改为当前选中。
 // (第1个轮子是指右边的轮子，左边的轮子是第0个)
 ```
-基础实例 → 功能函数操作后
 
-![基础实例](https://github.com/onlyhom/img-folder/blob/master/QQscreenshot/before20170306234037.png?raw=true)
-![功能函数操作后](https://github.com/onlyhom/img-folder/blob/master/QQscreenshot/after-20170306233954.png?raw=true)
+
 
 
 #### ②ajax异步填充数据demo
@@ -407,7 +415,7 @@ MobileSelect实例化的时候，读取这个字符串，再转成数组，传�
 ## 增加推荐字段的demo：
 > 传入的keymap中 有一个recommend字样  通过设置为true或者false  来显示这个推荐字段  （用户可自定义修改源码 进行扩展）
 
-![](http://oneg19f80.bkt.clouddn.com/18-7-19/409631.jpg)
+![image](http://upload-images.jianshu.io/upload_images/5703029-d181d04e3a64ee66.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
@@ -441,7 +449,7 @@ var mobileSelect = this.mobileSelect = new PickerExtend({
 
 ######  效果如下
 
-![](http://oneg19f80.bkt.clouddn.com/18-7-30/12469438.jpg)
+![image](http://upload-images.jianshu.io/upload_images/5703029-32a501b37c58720e.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
